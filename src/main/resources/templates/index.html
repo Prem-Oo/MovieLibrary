@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Movie Library</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+crossorigin="anonymous">
+</head>
+<body>
+   <div class="container text-center" style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col">
+                <span class="search-text" style="font-size: 20px; font-weight: bold;">Search :</span>
+                <a class="nav-link" href="/login" style="font-size: 18px; color: #007bff !important; text-decoration: none;">Admin</a>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="margin-bottom: 10px;">
+            <a class="nav-link" href="/id" style="font-size: 18px; margin-right: 20px; color: #007bff !important; text-decoration: none;" onmouseover="this.style.color='#ff8000';" onmouseout="this.style.color='#007bff';">by Movie ID</a>
+            <a class="nav-link" href="/name" style="font-size: 18px; margin-right: 20px; color: #007bff !important; text-decoration: none;" onmouseover="this.style.color='#ff8000';" onmouseout="this.style.color='#007bff';">by Movie Name</a>
+            <a class="nav-link" href="/collection" style="font-size: 18px; color: #007bff !important; text-decoration: none;" onmouseover="this.style.color='#ff8000';" onmouseout="this.style.color='#007bff';">by Movie Collection</a>
+        </div>
+    </div>
+</body>
+</html>
